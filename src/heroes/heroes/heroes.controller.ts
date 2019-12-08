@@ -11,4 +11,9 @@ export class HeroesController {
     index(): Promise<Heroe[]> {
         return this.heroesService.findAll();
     }
+
+    @Post()
+    async create(@Body() heroeData: Heroe): Promise<any> {
+        return this.heroesService.create(heroeData);
+    }
 }
