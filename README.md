@@ -17,3 +17,13 @@ now you can check access api endpoint in Postman
 GET, POST : http://localhost:3000/heroes
 PUT : http://localhost:3000/heroes/1/update
 DELETE : http://localhost:3000/heroes/1/delete
+```
+
+# Test With Postman
+![Image Api with NestJS](https://github.com/imam932/NestJS-RESTful-Api/blob/master/img/get.jpg)
+
+![Image Api with NestJS](https://github.com/imam932/NestJS-RESTful-Api/blob/master/img/post.jpg)
+
+![Image Api with NestJS](https://github.com/imam932/NestJS-RESTful-Api/blob/master/img/update.jpg)
+
+![Image Api with NestJS](https://github.com/imam932/NestJS-RESTful-Api/blob/master/img/delete.jpg)
